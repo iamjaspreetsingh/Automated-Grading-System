@@ -1,5 +1,5 @@
-# Automatic_grading
-An AI based automatic grading system 
+# Automatic Grading System
+An AI based automatic grading system implementation in TF 2.0.
 
 ## Inspiration
 
@@ -14,9 +14,9 @@ The project has 3 phases:
 feature extraction,Label scaling and training with Neural network.
 #### 1. Feature extraction
 We extracted 11 features which are used for statistical and theoretical aspects of the answer. 
-##### Statistical features:
+##### a. Statistical features:
 Word count, Vocabulary count, Noun count, Verb count, Adverb count, Adjective count. Sentence length and Wrong spelling% 
-##### Logical features 
+##### b. Logical features 
 Bag of words, perplexity feature (tells extent to which essay is related to topic asked in question) and beautiful words count. 
 
 #### 2. Scaling of target variable 
